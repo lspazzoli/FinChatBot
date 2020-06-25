@@ -1,0 +1,19 @@
+<html>
+  <head>
+      <title>
+        ChatBot Input
+      </title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="interactions">
+        <div>
+          <p id="output" type="text" >{{displaytext()}}</p>
+          <input type="text" placeholder="Response" id = "response"/>
+          <br/>
+          <button type="button"  (click)="query()">Submit</button>
+       </div>
+       </form>
+      </div>
+    </body>
+</html>
